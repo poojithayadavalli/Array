@@ -1,7 +1,7 @@
 """
 Ganvika is learning about arrays and she got stuck in a binary array task.The task is given below
 
-Given a binary array B, find the maximum number of consecutive 1s in this array.
+Given a binary array B with size n, find the maximum number of consecutive 1s in this array.
 
 Contrainsts:
 
@@ -9,8 +9,8 @@ Contrainsts:
 array must contain only 0 and 1
 
 Input Format:
-
-First line indicates elements of binary array
+Firstline indicates size of array n
+Secondline indicates elements of binary array
 
 Output:
 
@@ -19,6 +19,7 @@ print the count of maximum consecutive ones
 Example 1:
 
 Input: 
+6
 1 1 0 1 1 1
 
 Output:
