@@ -9,8 +9,8 @@ Constraints:
 1<=A.length<=1000
 
 Input:
-
-Input indicates array A
+Firstline indicates length of array n
+Secondline indicates elements of array A
 
 Output:
 
@@ -19,7 +19,7 @@ Print the resultant array
 Example:
 
 Input:
-
+5
 0 1 0 3 12
 
 Output:
