@@ -11,8 +11,8 @@ Constraints:
 0 <= prices[i] <= 10000
 
 Input Format:
-
-Firstline contains the elements of Prices array
+Firstline contains the number of days
+Secondline contains the elements of Prices array
 
 Output Format:
 
@@ -21,6 +21,7 @@ print the max profit that can be gained
 Example 1:
 
 Input:
+6
 7 1 5 3 6 4
 
 Output:
@@ -33,6 +34,7 @@ Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
 Example 2:
 
 Input:
+5
 1 2 3 4 5
 
 Output:
@@ -45,6 +47,7 @@ Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are 
 Example 3:
 
 Input: 
+5
 7 6 4 3 1
 
 Output:
